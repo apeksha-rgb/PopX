@@ -52,8 +52,8 @@ object-fit: cover;
 }
 .camera{
 position: absolute;
-width: 30px;
-height: 30px;
+width: 21px;
+height: 23px;
 cursor: pointer;
 border-radius: 50%;
 top: 45px;
@@ -69,19 +69,19 @@ left: 60px;
 .profile-email{
     
     font-size: 14px;
-    font-weight: 300;
+    font-weight: normal;
 }
 
 .profile-bottom p{
     
     text-align: justify;
-    font-weight: 300;
+    font-weight: normal;
     font-size: 14px;
 
 
 }
 .profile-bottom{
-    border-bottom:dotted #e2ddeb;
+    border-bottom: 1px dashed #e2ddeb;
 }
 
 .dotted-border{
@@ -89,6 +89,6 @@ left: 60px;
     width: 375px;
     height: 0px;
     margin-top: 570px;
-    border-bottom: dotted #e2ddeb;
+    border-bottom: 1px dashed #e2ddeb;
 
 }

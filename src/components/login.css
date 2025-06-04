@@ -43,7 +43,7 @@ opacity: 0.6;
 .form-group label{
     color: #6C25FF;
     font-size: 13px;
-    font-weight: 100;
+    font-weight: regular;
     
     display: inline-block;
     z-index: 1;
@@ -56,4 +56,7 @@ opacity: 0.6;
     top: -1px;
     
 
+}
+.btn{
+  background-color: #CBCBCB;
 }

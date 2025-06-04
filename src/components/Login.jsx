@@ -28,7 +28,7 @@ const Login = () => {
             <label> Email password</label>
             <input placeholder='Enter password' />
         </div>
-        <button
+        <button className='btn'
         onClick={handleLogin}
         >Login</button>
     </div>
