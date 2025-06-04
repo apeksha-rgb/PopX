@@ -22,7 +22,7 @@ const Home = () => {
       <div className={`home-container ${fade ? 'fade-out' : ""}`} >
         <div className='main-content'>
         <p className='heading'>Welcome to PopX</p>
-        <p className='content'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className='content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </div>
         <div className='button-container'>
           <button className='btn-primary'
