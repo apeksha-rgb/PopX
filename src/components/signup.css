@@ -1,0 +1,67 @@
+.signup-heading{
+    color: #1D2226;
+    font-size: 28px;
+    width: 188px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 660px;
+
+}
+.fade-out{
+    opacity: 0;
+    transition: opacity 0.3 ease-out ;
+}
+.required::after{
+    content: " *";
+    color:red;
+    font-weight: bold;
+}
+.bottom button{
+    width: 100%;
+    color: white;
+}
+.custom-radio input[type = "radio"]{
+    display: none;
+}
+.custom-radio{
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+}
+
+.agency-radio-btn{
+    display: flex;
+}
+.radio-mark{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;    
+    border: 2px solid #6C25FF;
+}
+
+
+
+.custom-radio input[type="radio"]:checked + .radio-mark::after {
+    content: "";
+    position: absolute;
+    background-color: #6C25FF;
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    left:2px;
+    
+    border-radius: 50%;
+
+}
+
+
+.agency-question p,
+.agency-question label{
+    color: #1D2226;
+    font-size: 14px;
+}
